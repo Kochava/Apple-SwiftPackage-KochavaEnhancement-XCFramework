@@ -1,0 +1,11 @@
+framework module KochavaEnhancement {
+  umbrella header "KochavaEnhancement.h"
+  export *
+
+  module * { export * }
+}
+
+module KochavaEnhancement.Swift {
+  header "KochavaEnhancement-Swift.h"
+  requires objc
+}

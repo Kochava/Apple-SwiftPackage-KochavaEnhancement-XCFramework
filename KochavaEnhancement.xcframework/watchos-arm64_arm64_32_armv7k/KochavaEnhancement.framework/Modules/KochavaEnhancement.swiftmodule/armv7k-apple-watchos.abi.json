@@ -1,0 +1,3855 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "KochavaNetworking",
+        "printedName": "KochavaNetworking",
+        "declKind": "Import",
+        "moduleName": "KochavaEnhancement",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "shared",
+        "printedName": "shared",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Product",
+            "printedName": "KochavaNetworking.Product",
+            "usr": "c:@M@KochavaNetworking@objc(cs)KochavaNetworking_Product"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:18KochavaEnhancement6shared0A10Networking7ProductCvp",
+        "mangledName": "$s18KochavaEnhancement6shared0A10Networking7ProductCvp",
+        "moduleName": "KochavaEnhancement",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Product",
+                "printedName": "KochavaNetworking.Product",
+                "usr": "c:@M@KochavaNetworking@objc(cs)KochavaNetworking_Product"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:18KochavaEnhancement6shared0A10Networking7ProductCvg",
+            "mangledName": "$s18KochavaEnhancement6shared0A10Networking7ProductCvg",
+            "moduleName": "KochavaEnhancement",
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KochavaEnhancement",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "KochavaEnhancement"
+      },
+      {
+        "kind": "Import",
+        "name": "KochavaNetworking",
+        "printedName": "KochavaNetworking",
+        "declKind": "Import",
+        "moduleName": "KochavaEnhancement"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Enhancement",
+        "printedName": "Enhancement",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Enhancement",
+                "printedName": "KochavaEnhancement.Enhancement",
+                "usr": "c:@M@KochavaEnhancement@objc(cs)KVAEnhancement"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@KochavaEnhancement@objc(cs)KVAEnhancement(cpy)shared",
+            "mangledName": "$s18KochavaEnhancement0B0C6sharedACvpZ",
+            "moduleName": "KochavaEnhancement",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Enhancement",
+                    "printedName": "KochavaEnhancement.Enhancement",
+                    "usr": "c:@M@KochavaEnhancement@objc(cs)KVAEnhancement"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KochavaEnhancement@objc(cs)KVAEnhancement(cm)shared",
+                "mangledName": "$s18KochavaEnhancement0B0C6sharedACvgZ",
+                "moduleName": "KochavaEnhancement",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shared_optional",
+            "printedName": "shared_optional",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KochavaEnhancement.Enhancement?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Enhancement",
+                    "printedName": "KochavaEnhancement.Enhancement",
+                    "usr": "c:@M@KochavaEnhancement@objc(cs)KVAEnhancement"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@KochavaEnhancement@objc(cs)KVAEnhancement(cpy)shared_optional",
+            "mangledName": "$s18KochavaEnhancement0B0C15shared_optionalACSgvpZ",
+            "moduleName": "KochavaEnhancement",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "KochavaEnhancement.Enhancement?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Enhancement",
+                        "printedName": "KochavaEnhancement.Enhancement",
+                        "usr": "c:@M@KochavaEnhancement@objc(cs)KVAEnhancement"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KochavaEnhancement@objc(cs)KVAEnhancement(cm)shared_optional",
+                "mangledName": "$s18KochavaEnhancement0B0C15shared_optionalACSgvgZ",
+                "moduleName": "KochavaEnhancement",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sharedInstance",
+            "printedName": "sharedInstance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "AnyObject"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@KochavaEnhancement@objc(cs)KVAEnhancement(cpy)sharedInstance",
+            "mangledName": "$s18KochavaEnhancement0B0C14sharedInstanceyXlvpZ",
+            "moduleName": "KochavaEnhancement",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "AnyObject"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KochavaEnhancement@objc(cs)KVAEnhancement(cm)sharedInstance",
+                "mangledName": "$s18KochavaEnhancement0B0C14sharedInstanceyXlvgZ",
+                "moduleName": "KochavaEnhancement",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(storageIdentifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Enhancement",
+                "printedName": "KochavaEnhancement.Enhancement",
+                "usr": "c:@M@KochavaEnhancement@objc(cs)KVAEnhancement"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@KochavaEnhancement@objc(cs)KVAEnhancement(im)initWithStorageIdentifier:",
+            "mangledName": "$s18KochavaEnhancement0B0C17storageIdentifierACSSSg_tcfc",
+            "moduleName": "KochavaEnhancement",
+            "objc_name": "initWithStorageIdentifier:",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Function",
+            "name": "from",
+            "printedName": "from(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Self?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DynamicSelf",
+                    "printedName": "Self"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18KochavaEnhancement0B0C4fromyACXDSgypSgFZ",
+            "mangledName": "$s18KochavaEnhancement0B0C4fromyACXDSgypSgFZ",
+            "moduleName": "KochavaEnhancement",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "from",
+            "printedName": "from(_:initializedObject:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Self?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DynamicSelf",
+                    "printedName": "Self"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18KochavaEnhancement0B0C4from_17initializedObjectACXDSgypSg_AGtFZ",
+            "mangledName": "$s18KochavaEnhancement0B0C4from_17initializedObjectACXDSgypSg_AGtFZ",
+            "moduleName": "KochavaEnhancement",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "to",
+            "printedName": "to(context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AnyObject?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "AnyObject"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KochavaNetworking.Context?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Context",
+                    "printedName": "KochavaNetworking.Context",
+                    "usr": "c:@M@KochavaNetworking@objc(cs)KVAContext"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18KochavaEnhancement0B0C2to7contextyXlSg0A10Networking7ContextCSg_tF",
+            "mangledName": "$s18KochavaEnhancement0B0C2to7contextyXlSg0A10Networking7ContextCSg_tF",
+            "moduleName": "KochavaEnhancement",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(with:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KochavaNetworking.Context?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Context",
+                    "printedName": "KochavaNetworking.Context",
+                    "usr": "c:@M@KochavaNetworking@objc(cs)KVAContext"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KochavaEnhancement@objc(cs)KVAEnhancement(im)configureWith:context:",
+            "mangledName": "$s18KochavaEnhancement0B0C9configure4with7contextyypSg_0A10Networking7ContextCSgtF",
+            "moduleName": "KochavaEnhancement",
+            "objc_name": "configureWith:context:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(with:context:logMessagePrintBool:asyncBool:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KochavaNetworking.Context?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Context",
+                    "printedName": "KochavaNetworking.Context",
+                    "usr": "c:@M@KochavaNetworking@objc(cs)KVAContext"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KochavaEnhancement@objc(cs)KVAEnhancement(im)configureWith:context:logMessagePrintBool:asyncBool:",
+            "mangledName": "$s18KochavaEnhancement0B0C9configure4with7context19logMessagePrintBool05asyncI0yypSg_0A10Networking7ContextCSgS2btF",
+            "moduleName": "KochavaEnhancement",
+            "objc_name": "configureWith:context:logMessagePrintBool:asyncBool:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KochavaEnhancement@objc(cs)KVAEnhancement(im)start",
+            "mangledName": "$s18KochavaEnhancement0B0C5startyyF",
+            "moduleName": "KochavaEnhancement",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start(logMessagePrintBool:asyncBool:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KochavaEnhancement@objc(cs)KVAEnhancement(im)startWithLogMessagePrintBool:asyncBool:",
+            "mangledName": "$s18KochavaEnhancement0B0C5start19logMessagePrintBool05asyncG0ySb_SbtF",
+            "moduleName": "KochavaEnhancement",
+            "objc_name": "startWithLogMessagePrintBool:asyncBool:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stop",
+            "printedName": "stop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KochavaEnhancement@objc(cs)KVAEnhancement(im)stop",
+            "mangledName": "$s18KochavaEnhancement0B0C4stopyyF",
+            "moduleName": "KochavaEnhancement",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stop",
+            "printedName": "stop(logMessagePrintBool:asyncBool:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KochavaEnhancement@objc(cs)KVAEnhancement(im)stopWithLogMessagePrintBool:asyncBool:",
+            "mangledName": "$s18KochavaEnhancement0B0C4stop19logMessagePrintBool05asyncG0ySb_SbtF",
+            "moduleName": "KochavaEnhancement",
+            "objc_name": "stopWithLogMessagePrintBool:asyncBool:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "logger",
+            "printedName": "logger",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Logger",
+                "printedName": "os.Logger",
+                "usr": "s:2os6LoggerV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18KochavaEnhancement0B0C6logger2os6LoggerVvpZ",
+            "mangledName": "$s18KochavaEnhancement0B0C6logger2os6LoggerVvpZ",
+            "moduleName": "KochavaEnhancement",
+            "static": true,
+            "intro_Macosx": "11.0",
+            "intro_iOS": "14.0",
+            "intro_tvOS": "14.0",
+            "intro_watchOS": "7.0",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "Available",
+              "Available",
+              "Available",
+              "Available",
+              "Available",
+              "Available",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Logger",
+                    "printedName": "os.Logger",
+                    "usr": "s:2os6LoggerV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18KochavaEnhancement0B0C6logger2os6LoggerVvgZ",
+                "mangledName": "$s18KochavaEnhancement0B0C6logger2os6LoggerVvgZ",
+                "moduleName": "KochavaEnhancement",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@KochavaEnhancement@objc(cs)KVAEnhancement(py)description",
+            "mangledName": "$s18KochavaEnhancement0B0C11descriptionSSvp",
+            "moduleName": "KochavaEnhancement",
+            "overriding": true,
+            "objc_name": "description",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KochavaEnhancement@objc(cs)KVAEnhancement(im)description",
+                "mangledName": "$s18KochavaEnhancement0B0C11descriptionSSvg",
+                "moduleName": "KochavaEnhancement",
+                "overriding": true,
+                "objc_name": "description",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type_kochava",
+            "printedName": "type_kochava",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Kochava_Type",
+                "printedName": "KochavaNetworking.Kochava_Type",
+                "usr": "s:17KochavaNetworking0A5_TypeC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18KochavaEnhancement0B0C12type_kochava0A10Networking0A5_TypeCvpZ",
+            "mangledName": "$s18KochavaEnhancement0B0C12type_kochava0A10Networking0A5_TypeCvpZ",
+            "moduleName": "KochavaEnhancement",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Kochava_Type",
+                    "printedName": "KochavaNetworking.Kochava_Type",
+                    "usr": "s:17KochavaNetworking0A5_TypeC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18KochavaEnhancement0B0C12type_kochava0A10Networking0A5_TypeCvgZ",
+                "mangledName": "$s18KochavaEnhancement0B0C12type_kochava0A10Networking0A5_TypeCvgZ",
+                "moduleName": "KochavaEnhancement",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "execution",
+            "printedName": "execution",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Execution",
+                "printedName": "KochavaNetworking.Execution",
+                "usr": "s:17KochavaNetworking9ExecutionC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18KochavaEnhancement0B0C9execution0A10Networking9ExecutionCvp",
+            "mangledName": "$s18KochavaEnhancement0B0C9execution0A10Networking9ExecutionCvp",
+            "moduleName": "KochavaEnhancement",
+            "declAttributes": [
+              "Final",
+              "Lazy",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Execution",
+                    "printedName": "KochavaNetworking.Execution",
+                    "usr": "s:17KochavaNetworking9ExecutionC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18KochavaEnhancement0B0C9execution0A10Networking9ExecutionCvg",
+                "mangledName": "$s18KochavaEnhancement0B0C9execution0A10Networking9ExecutionCvg",
+                "moduleName": "KochavaEnhancement",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "invalidate",
+            "printedName": "invalidate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KochavaEnhancement@objc(cs)KVAEnhancement(im)invalidate",
+            "mangledName": "$s18KochavaEnhancement0B0C10invalidateyyF",
+            "moduleName": "KochavaEnhancement",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "invalidate",
+            "printedName": "invalidate(logMessagePrintBool:asyncBool:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KochavaEnhancement@objc(cs)KVAEnhancement(im)invalidateWithLogMessagePrintBool:asyncBool:",
+            "mangledName": "$s18KochavaEnhancement0B0C10invalidate19logMessagePrintBool05asyncG0ySb_SbtF",
+            "moduleName": "KochavaEnhancement",
+            "objc_name": "invalidateWithLogMessagePrintBool:asyncBool:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "general",
+            "printedName": "general",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "General",
+                "printedName": "KochavaEnhancement.Enhancement.General",
+                "usr": "s:18KochavaEnhancement0B0C7GeneralC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@KochavaEnhancement@objc(cs)KVAEnhancement(py)general",
+            "mangledName": "$s18KochavaEnhancement0B0C7generalAC7GeneralCvp",
+            "moduleName": "KochavaEnhancement",
+            "declAttributes": [
+              "Final",
+              "Lazy",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "General",
+                    "printedName": "KochavaEnhancement.Enhancement.General",
+                    "usr": "s:18KochavaEnhancement0B0C7GeneralC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KochavaEnhancement@objc(cs)KVAEnhancement(im)general",
+                "mangledName": "$s18KochavaEnhancement0B0C7generalAC7GeneralCvg",
+                "moduleName": "KochavaEnhancement",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "networking",
+            "printedName": "networking",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Networking",
+                "printedName": "KochavaNetworking.Networking",
+                "usr": "c:@M@KochavaNetworking@objc(cs)KVANetworking"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@KochavaEnhancement@objc(cs)KVAEnhancement(py)networking",
+            "mangledName": "$s18KochavaEnhancement0B0C10networking0A10Networking0D0Cvp",
+            "moduleName": "KochavaEnhancement",
+            "declAttributes": [
+              "Final",
+              "Lazy",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Networking",
+                    "printedName": "KochavaNetworking.Networking",
+                    "usr": "c:@M@KochavaNetworking@objc(cs)KVANetworking"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KochavaEnhancement@objc(cs)KVAEnhancement(im)networking",
+                "mangledName": "$s18KochavaEnhancement0B0C10networking0A10Networking0D0Cvg",
+                "moduleName": "KochavaEnhancement",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sharedNetworkingLinkAutomaticallyBool",
+            "printedName": "sharedNetworkingLinkAutomaticallyBool",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@KochavaEnhancement@objc(cs)KVAEnhancement(cpy)sharedNetworkingLinkAutomaticallyBool",
+            "mangledName": "$s18KochavaEnhancement0B0C37sharedNetworkingLinkAutomaticallyBoolSbvpZ",
+            "moduleName": "KochavaEnhancement",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KochavaEnhancement@objc(cs)KVAEnhancement(cm)sharedNetworkingLinkAutomaticallyBool",
+                "mangledName": "$s18KochavaEnhancement0B0C37sharedNetworkingLinkAutomaticallyBoolSbvgZ",
+                "moduleName": "KochavaEnhancement",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KochavaEnhancement@objc(cs)KVAEnhancement(cm)setSharedNetworkingLinkAutomaticallyBool:",
+                "mangledName": "$s18KochavaEnhancement0B0C37sharedNetworkingLinkAutomaticallyBoolSbvsZ",
+                "moduleName": "KochavaEnhancement",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18KochavaEnhancement0B0C37sharedNetworkingLinkAutomaticallyBoolSbvMZ",
+                "mangledName": "$s18KochavaEnhancement0B0C37sharedNetworkingLinkAutomaticallyBoolSbvMZ",
+                "moduleName": "KochavaEnhancement",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sharedStorageIdentifier",
+            "printedName": "sharedStorageIdentifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@KochavaEnhancement@objc(cs)KVAEnhancement(cpy)sharedStorageIdentifier",
+            "mangledName": "$s18KochavaEnhancement0B0C23sharedStorageIdentifierSSSgvpZ",
+            "moduleName": "KochavaEnhancement",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KochavaEnhancement@objc(cs)KVAEnhancement(cm)sharedStorageIdentifier",
+                "mangledName": "$s18KochavaEnhancement0B0C23sharedStorageIdentifierSSSgvgZ",
+                "moduleName": "KochavaEnhancement",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KochavaEnhancement@objc(cs)KVAEnhancement(cm)setSharedStorageIdentifier:",
+                "mangledName": "$s18KochavaEnhancement0B0C23sharedStorageIdentifierSSSgvsZ",
+                "moduleName": "KochavaEnhancement",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18KochavaEnhancement0B0C23sharedStorageIdentifierSSSgvMZ",
+                "mangledName": "$s18KochavaEnhancement0B0C23sharedStorageIdentifierSSSgvMZ",
+                "moduleName": "KochavaEnhancement",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Enhancement",
+                "printedName": "KochavaEnhancement.Enhancement",
+                "usr": "c:@M@KochavaEnhancement@objc(cs)KVAEnhancement"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@KochavaEnhancement@objc(cs)KVAEnhancement(im)init",
+            "mangledName": "$s18KochavaEnhancement0B0CACycfc",
+            "moduleName": "KochavaEnhancement",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "General",
+            "printedName": "General",
+            "children": [
+              {
+                "kind": "Function",
+                "name": "from",
+                "printedName": "from(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Self?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DynamicSelf",
+                        "printedName": "Self"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18KochavaEnhancement0B0C7GeneralC4fromyAEXDSgypSgFZ",
+                "mangledName": "$s18KochavaEnhancement0B0C7GeneralC4fromyAEXDSgypSgFZ",
+                "moduleName": "KochavaEnhancement",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "from",
+                "printedName": "from(_:initializedObject:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Self?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DynamicSelf",
+                        "printedName": "Self"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18KochavaEnhancement0B0C7GeneralC4from_17initializedObjectAEXDSgypSg_AItFZ",
+                "mangledName": "$s18KochavaEnhancement0B0C7GeneralC4from_17initializedObjectAEXDSgypSg_AItFZ",
+                "moduleName": "KochavaEnhancement",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "AccessControl",
+                  "DiscardableResult"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "to",
+                "printedName": "to(context:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AnyObject?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "AnyObject"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "KochavaNetworking.Context?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Context",
+                        "printedName": "KochavaNetworking.Context",
+                        "usr": "c:@M@KochavaNetworking@objc(cs)KVAContext"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18KochavaEnhancement0B0C7GeneralC2to7contextyXlSg0A10Networking7ContextCSg_tF",
+                "mangledName": "$s18KochavaEnhancement0B0C7GeneralC2to7contextyXlSg0A10Networking7ContextCSg_tF",
+                "moduleName": "KochavaEnhancement",
+                "declAttributes": [
+                  "Final",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "configure",
+                "printedName": "configure(with:context:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "KochavaNetworking.Context?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Context",
+                        "printedName": "KochavaNetworking.Context",
+                        "usr": "c:@M@KochavaNetworking@objc(cs)KVAContext"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18KochavaEnhancement0B0C7GeneralC9configure4with7contextyypSg_0A10Networking7ContextCSgtF",
+                "mangledName": "$s18KochavaEnhancement0B0C7GeneralC9configure4with7contextyypSg_0A10Networking7ContextCSgtF",
+                "moduleName": "KochavaEnhancement",
+                "declAttributes": [
+                  "Final",
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "start",
+                "printedName": "start()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18KochavaEnhancement0B0C7GeneralC5startyyF",
+                "mangledName": "$s18KochavaEnhancement0B0C7GeneralC5startyyF",
+                "moduleName": "KochavaEnhancement",
+                "declAttributes": [
+                  "Final",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "logger",
+                "printedName": "logger",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Logger",
+                    "printedName": "os.Logger",
+                    "usr": "s:2os6LoggerV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18KochavaEnhancement0B0C7GeneralC6logger2os6LoggerVvpZ",
+                "mangledName": "$s18KochavaEnhancement0B0C7GeneralC6logger2os6LoggerVvpZ",
+                "moduleName": "KochavaEnhancement",
+                "static": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "Final",
+                  "HasStorage",
+                  "AccessControl",
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Logger",
+                        "printedName": "os.Logger",
+                        "usr": "s:2os6LoggerV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18KochavaEnhancement0B0C7GeneralC6logger2os6LoggerVvgZ",
+                    "mangledName": "$s18KochavaEnhancement0B0C7GeneralC6logger2os6LoggerVvgZ",
+                    "moduleName": "KochavaEnhancement",
+                    "static": true,
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "key",
+                "printedName": "key(context:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.AnyHashable?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyHashable",
+                        "printedName": "Swift.AnyHashable",
+                        "usr": "s:s11AnyHashableV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "KochavaNetworking.Context?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Context",
+                        "printedName": "KochavaNetworking.Context",
+                        "usr": "c:@M@KochavaNetworking@objc(cs)KVAContext"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18KochavaEnhancement0B0C7GeneralC3key7contexts11AnyHashableVSg0A10Networking7ContextCSg_tF",
+                "mangledName": "$s18KochavaEnhancement0B0C7GeneralC3key7contexts11AnyHashableVSg0A10Networking7ContextCSg_tF",
+                "moduleName": "KochavaEnhancement",
+                "declAttributes": [
+                  "Final",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "type_kochava",
+                "printedName": "type_kochava",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Kochava_Type",
+                    "printedName": "KochavaNetworking.Kochava_Type",
+                    "usr": "s:17KochavaNetworking0A5_TypeC"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18KochavaEnhancement0B0C7GeneralC12type_kochava0A10Networking0A5_TypeCvpZ",
+                "mangledName": "$s18KochavaEnhancement0B0C7GeneralC12type_kochava0A10Networking0A5_TypeCvpZ",
+                "moduleName": "KochavaEnhancement",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "Final",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Kochava_Type",
+                        "printedName": "KochavaNetworking.Kochava_Type",
+                        "usr": "s:17KochavaNetworking0A5_TypeC"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18KochavaEnhancement0B0C7GeneralC12type_kochava0A10Networking0A5_TypeCvgZ",
+                    "mangledName": "$s18KochavaEnhancement0B0C7GeneralC12type_kochava0A10Networking0A5_TypeCvgZ",
+                    "moduleName": "KochavaEnhancement",
+                    "static": true,
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "execution",
+                "printedName": "execution",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Execution",
+                    "printedName": "KochavaNetworking.Execution",
+                    "usr": "s:17KochavaNetworking9ExecutionC"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18KochavaEnhancement0B0C7GeneralC9execution0A10Networking9ExecutionCvp",
+                "mangledName": "$s18KochavaEnhancement0B0C7GeneralC9execution0A10Networking9ExecutionCvp",
+                "moduleName": "KochavaEnhancement",
+                "declAttributes": [
+                  "Final",
+                  "Lazy",
+                  "SetterAccess",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Execution",
+                        "printedName": "KochavaNetworking.Execution",
+                        "usr": "s:17KochavaNetworking9ExecutionC"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18KochavaEnhancement0B0C7GeneralC9execution0A10Networking9ExecutionCvg",
+                    "mangledName": "$s18KochavaEnhancement0B0C7GeneralC9execution0A10Networking9ExecutionCvg",
+                    "moduleName": "KochavaEnhancement",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "invalidate",
+                "printedName": "invalidate()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18KochavaEnhancement0B0C7GeneralC10invalidateyyF",
+                "mangledName": "$s18KochavaEnhancement0B0C7GeneralC10invalidateyyF",
+                "moduleName": "KochavaEnhancement",
+                "declAttributes": [
+                  "Final",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "storageIdentifierAdapter",
+                "printedName": "storageIdentifierAdapter",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Adapter",
+                    "printedName": "KochavaNetworking.Adapter",
+                    "usr": "s:17KochavaNetworking7AdapterC"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18KochavaEnhancement0B0C7GeneralC24storageIdentifierAdapter0A10Networking0F0Cvp",
+                "mangledName": "$s18KochavaEnhancement0B0C7GeneralC24storageIdentifierAdapter0A10Networking0F0Cvp",
+                "moduleName": "KochavaEnhancement",
+                "declAttributes": [
+                  "Final",
+                  "Lazy",
+                  "SetterAccess",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Adapter",
+                        "printedName": "KochavaNetworking.Adapter",
+                        "usr": "s:17KochavaNetworking7AdapterC"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18KochavaEnhancement0B0C7GeneralC24storageIdentifierAdapter0A10Networking0F0Cvg",
+                    "mangledName": "$s18KochavaEnhancement0B0C7GeneralC24storageIdentifierAdapter0A10Networking0F0Cvg",
+                    "moduleName": "KochavaEnhancement",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "instanceCreatedDate",
+                "printedName": "instanceCreatedDate",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18KochavaEnhancement0B0C7GeneralC19instanceCreatedDate10Foundation0F0Vvp",
+                "mangledName": "$s18KochavaEnhancement0B0C7GeneralC19instanceCreatedDate10Foundation0F0Vvp",
+                "moduleName": "KochavaEnhancement",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "Final",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18KochavaEnhancement0B0C7GeneralC19instanceCreatedDate10Foundation0F0Vvg",
+                    "mangledName": "$s18KochavaEnhancement0B0C7GeneralC19instanceCreatedDate10Foundation0F0Vvg",
+                    "moduleName": "KochavaEnhancement",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "General",
+                    "printedName": "KochavaEnhancement.Enhancement.General",
+                    "usr": "s:18KochavaEnhancement0B0C7GeneralC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:18KochavaEnhancement0B0C7GeneralCAEycfc",
+                "mangledName": "$s18KochavaEnhancement0B0C7GeneralCAEycfc",
+                "moduleName": "KochavaEnhancement",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "init",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "Override"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:18KochavaEnhancement0B0C7GeneralC",
+            "mangledName": "$s18KochavaEnhancement0B0C7GeneralC",
+            "moduleName": "KochavaEnhancement",
+            "objc_name": "KVAEnhancement_General",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "superclassUsr": "c:objc(cs)NSObject",
+            "hasMissingDesignatedInitializers": true,
+            "superclassNames": [
+              "ObjectiveC.NSObject"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "ConfigurableWith",
+                "printedName": "ConfigurableWith",
+                "usr": "s:17KochavaNetworking16ConfigurableWithP",
+                "mangledName": "$s17KochavaNetworking16ConfigurableWithP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "DecodableFrom",
+                "printedName": "DecodableFrom",
+                "usr": "s:17KochavaNetworking13DecodableFromP",
+                "mangledName": "$s17KochavaNetworking13DecodableFromP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "DecodableFromWithInitializedObject",
+                "printedName": "DecodableFromWithInitializedObject",
+                "usr": "s:17KochavaNetworking34DecodableFromWithInitializedObjectP",
+                "mangledName": "$s17KochavaNetworking34DecodableFromWithInitializedObjectP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "EncodableTo",
+                "printedName": "EncodableTo",
+                "usr": "s:17KochavaNetworking11EncodableToP",
+                "mangledName": "$s17KochavaNetworking11EncodableToP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Executor",
+                "printedName": "Executor",
+                "usr": "s:17KochavaNetworking8ExecutorP",
+                "mangledName": "$s17KochavaNetworking8ExecutorP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Invalidatable",
+                "printedName": "Invalidatable",
+                "usr": "s:17KochavaNetworking13InvalidatableP",
+                "mangledName": "$s17KochavaNetworking13InvalidatableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Keyable",
+                "printedName": "Keyable",
+                "usr": "s:17KochavaNetworking7KeyableP",
+                "mangledName": "$s17KochavaNetworking7KeyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Logger_Provider",
+                "printedName": "Logger_Provider",
+                "usr": "s:17KochavaNetworking15Logger_ProviderP",
+                "mangledName": "$s17KochavaNetworking15Logger_ProviderP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Startable",
+                "printedName": "Startable",
+                "usr": "s:17KochavaNetworking9StartableP",
+                "mangledName": "$s17KochavaNetworking9StartableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObservingPublishing",
+                "printedName": "_KeyValueCodingAndObservingPublishing",
+                "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+                "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Typed",
+                "printedName": "Typed",
+                "usr": "s:17KochavaNetworking5TypedP",
+                "mangledName": "$s17KochavaNetworking5TypedP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@KochavaEnhancement@objc(cs)KVAEnhancement",
+        "mangledName": "$s18KochavaEnhancement0B0C",
+        "moduleName": "KochavaEnhancement",
+        "objc_name": "KVAEnhancement",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ConfigurableWith",
+            "printedName": "ConfigurableWith",
+            "usr": "s:17KochavaNetworking16ConfigurableWithP",
+            "mangledName": "$s17KochavaNetworking16ConfigurableWithP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ConfigurableWithWithOptions",
+            "printedName": "ConfigurableWithWithOptions",
+            "usr": "s:17KochavaNetworking016ConfigurableWithD7OptionsP",
+            "mangledName": "$s17KochavaNetworking016ConfigurableWithD7OptionsP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DecodableFrom",
+            "printedName": "DecodableFrom",
+            "usr": "s:17KochavaNetworking13DecodableFromP",
+            "mangledName": "$s17KochavaNetworking13DecodableFromP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DecodableFromWithInitializedObject",
+            "printedName": "DecodableFromWithInitializedObject",
+            "usr": "s:17KochavaNetworking34DecodableFromWithInitializedObjectP",
+            "mangledName": "$s17KochavaNetworking34DecodableFromWithInitializedObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "EncodableTo",
+            "printedName": "EncodableTo",
+            "usr": "s:17KochavaNetworking11EncodableToP",
+            "mangledName": "$s17KochavaNetworking11EncodableToP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Executor",
+            "printedName": "Executor",
+            "usr": "s:17KochavaNetworking8ExecutorP",
+            "mangledName": "$s17KochavaNetworking8ExecutorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Invalidatable",
+            "printedName": "Invalidatable",
+            "usr": "s:17KochavaNetworking13InvalidatableP",
+            "mangledName": "$s17KochavaNetworking13InvalidatableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "InvalidatableWithOptions",
+            "printedName": "InvalidatableWithOptions",
+            "usr": "s:17KochavaNetworking24InvalidatableWithOptionsP",
+            "mangledName": "$s17KochavaNetworking24InvalidatableWithOptionsP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Logger_Provider",
+            "printedName": "Logger_Provider",
+            "usr": "s:17KochavaNetworking15Logger_ProviderP",
+            "mangledName": "$s17KochavaNetworking15Logger_ProviderP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Networking_RequiredProvider",
+            "printedName": "Networking_RequiredProvider",
+            "usr": "s:17KochavaNetworking0B17_RequiredProviderP",
+            "mangledName": "$s17KochavaNetworking0B17_RequiredProviderP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SharedInstanceProvider",
+            "printedName": "SharedInstanceProvider",
+            "usr": "s:17KochavaNetworking22SharedInstanceProviderP",
+            "mangledName": "$s17KochavaNetworking22SharedInstanceProviderP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Startable",
+            "printedName": "Startable",
+            "usr": "s:17KochavaNetworking9StartableP",
+            "mangledName": "$s17KochavaNetworking9StartableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "StartableWithOptions",
+            "printedName": "StartableWithOptions",
+            "usr": "s:17KochavaNetworking20StartableWithOptionsP",
+            "mangledName": "$s17KochavaNetworking20StartableWithOptionsP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Stoppable",
+            "printedName": "Stoppable",
+            "usr": "s:17KochavaNetworking9StoppableP",
+            "mangledName": "$s17KochavaNetworking9StoppableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "StoppableWithOptions",
+            "printedName": "StoppableWithOptions",
+            "usr": "s:17KochavaNetworking20StoppableWithOptionsP",
+            "mangledName": "$s17KochavaNetworking20StoppableWithOptionsP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Typed",
+            "printedName": "Typed",
+            "usr": "s:17KochavaNetworking5TypedP",
+            "mangledName": "$s17KochavaNetworking5TypedP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KochavaEnhancement",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "KochavaNetworking",
+        "printedName": "KochavaNetworking",
+        "declKind": "Import",
+        "moduleName": "KochavaEnhancement"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KochavaEnhancement",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "KochavaEnhancement"
+      },
+      {
+        "kind": "Import",
+        "name": "KochavaNetworking",
+        "printedName": "KochavaNetworking",
+        "declKind": "Import",
+        "moduleName": "KochavaEnhancement"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KochavaEnhancement",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "KochavaEnhancement"
+      },
+      {
+        "kind": "Import",
+        "name": "KochavaNetworking",
+        "printedName": "KochavaNetworking",
+        "declKind": "Import",
+        "moduleName": "KochavaEnhancement"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Product",
+        "printedName": "Product",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Product",
+                "printedName": "KochavaNetworking.Product",
+                "usr": "c:@M@KochavaNetworking@objc(cs)KochavaNetworking_Product"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@KochavaEnhancement@objc(cs)KochavaEnhancement_Product(cpy)shared",
+            "mangledName": "$s18KochavaEnhancement7ProductC6shared0A10NetworkingABCvpZ",
+            "moduleName": "KochavaEnhancement",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Product",
+                    "printedName": "KochavaNetworking.Product",
+                    "usr": "c:@M@KochavaNetworking@objc(cs)KochavaNetworking_Product"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@KochavaEnhancement@objc(cs)KochavaEnhancement_Product(cm)shared",
+                "mangledName": "$s18KochavaEnhancement7ProductC6shared0A10NetworkingABCvgZ",
+                "moduleName": "KochavaEnhancement",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sharedInstance",
+            "printedName": "sharedInstance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "AnyObject"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18KochavaEnhancement7ProductC14sharedInstanceyXlvpZ",
+            "mangledName": "$s18KochavaEnhancement7ProductC14sharedInstanceyXlvpZ",
+            "moduleName": "KochavaEnhancement",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "AnyObject"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18KochavaEnhancement7ProductC14sharedInstanceyXlvgZ",
+                "mangledName": "$s18KochavaEnhancement7ProductC14sharedInstanceyXlvgZ",
+                "moduleName": "KochavaEnhancement",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "logger",
+            "printedName": "logger",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Logger",
+                "printedName": "os.Logger",
+                "usr": "s:2os6LoggerV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18KochavaEnhancement7ProductC6logger2os6LoggerVvpZ",
+            "mangledName": "$s18KochavaEnhancement7ProductC6logger2os6LoggerVvpZ",
+            "moduleName": "KochavaEnhancement",
+            "static": true,
+            "intro_Macosx": "11.0",
+            "intro_iOS": "14.0",
+            "intro_tvOS": "14.0",
+            "intro_watchOS": "7.0",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "Available",
+              "Available",
+              "Available",
+              "Available",
+              "Available",
+              "Available",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Logger",
+                    "printedName": "os.Logger",
+                    "usr": "s:2os6LoggerV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18KochavaEnhancement7ProductC6logger2os6LoggerVvgZ",
+                "mangledName": "$s18KochavaEnhancement7ProductC6logger2os6LoggerVvgZ",
+                "moduleName": "KochavaEnhancement",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Product",
+                "printedName": "KochavaEnhancement.Product",
+                "usr": "c:@M@KochavaEnhancement@objc(cs)KochavaEnhancement_Product"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@KochavaEnhancement@objc(cs)KochavaEnhancement_Product(im)init",
+            "mangledName": "$s18KochavaEnhancement7ProductCACycfc",
+            "moduleName": "KochavaEnhancement",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@KochavaEnhancement@objc(cs)KochavaEnhancement_Product",
+        "mangledName": "$s18KochavaEnhancement7ProductC",
+        "moduleName": "KochavaEnhancement",
+        "objc_name": "KochavaEnhancement_Product",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Logger_Provider",
+            "printedName": "Logger_Provider",
+            "usr": "s:17KochavaNetworking15Logger_ProviderP",
+            "mangledName": "$s17KochavaNetworking15Logger_ProviderP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SharedInstanceProvider",
+            "printedName": "SharedInstanceProvider",
+            "usr": "s:17KochavaNetworking22SharedInstanceProviderP",
+            "mangledName": "$s17KochavaNetworking22SharedInstanceProviderP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2212,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4263,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4452,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4972,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5098,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 5265,
+      "length": 13,
+      "value": "\"Did Restore\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 5281,
+      "length": 12,
+      "value": "\"Did Create\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6312,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 6493,
+      "length": 14,
+      "value": "\"Will Dealloc\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 6563,
+      "length": 20,
+      "value": "\"instanceIdentifier\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 6637,
+      "length": 17,
+      "value": "\"instancePointer\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 6656,
+      "length": 70,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 6725,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8816,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 8886,
+      "length": 12,
+      "value": "\"storage_id\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 9923,
+      "length": 12,
+      "value": "\"storage_id\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15328,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15357,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 16332,
+      "length": 23,
+      "value": "\"func configure(with:)\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16849,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16910,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 17134,
+      "length": 11,
+      "value": "\"$default$\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 17203,
+      "length": 18,
+      "value": "\"$default.append$\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 17763,
+      "length": 12,
+      "value": "\"$override$\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 17834,
+      "length": 19,
+      "value": "\"$override.append$\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 19143,
+      "length": 11,
+      "value": "\"$default$\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 19192,
+      "length": 18,
+      "value": "\"$default.append$\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 19248,
+      "length": 12,
+      "value": "\"$override$\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 19298,
+      "length": 19,
+      "value": "\"$override.append$\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 19355,
+      "length": 12,
+      "value": "\"networking\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19615,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19621,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 19724,
+      "length": 25,
+      "value": "\"passedAlongFromLinkBool\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19779,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "Dictionary",
+      "offset": 19928,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 20035,
+      "length": 25,
+      "value": "\"passedAlongFromLinkBool\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20064,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 20200,
+      "length": 18,
+      "value": "\"mergedDictionary\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 20387,
+      "length": 88,
+      "value": "\"Will Configure\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 20444,
+      "length": 24,
+      "value": "\" (Including Overrides)\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 20471,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 20474,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20547,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "Dictionary",
+      "offset": 20852,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21595,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21633,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 21724,
+      "length": 9,
+      "value": "\"adapter\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 21960,
+      "length": 15,
+      "value": "\"Did Configure\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 22781,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23010,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23039,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 24271,
+      "length": 14,
+      "value": "\"func start()\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 25241,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 25279,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 26854,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 26883,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 28785,
+      "length": 13,
+      "value": "\"func stop()\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 29812,
+      "length": 38,
+      "value": "\"2d54ed1e-301e-4dcc-8d4b-6ec71a2c8b27\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 29947,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 30236,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 30278,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 31093,
+      "length": 46,
+      "value": "\"; instanceIdentifier = \""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 31138,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 31364,
+      "length": 45,
+      "value": "\"; storageIdentifier = \""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 31408,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 31424,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 31461,
+      "length": 147,
+      "value": "\"<\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 31475,
+      "length": 1,
+      "value": "\": \""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 31545,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 31576,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 31606,
+      "length": 1,
+      "value": "\">\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 31760,
+      "length": 32,
+      "value": "\"KochavaEnhancement.Enhancement\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 32285,
+      "length": 34,
+      "value": "\"Enhancement.executionTokenString\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 32800,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 32829,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 34076,
+      "length": 19,
+      "value": "\"func invalidate()\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 34919,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 35159,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 35197,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 37267,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 37369,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 37421,
+      "length": 40,
+      "value": "\"Enhancement.Config.retrieveTransaction\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 37563,
+      "length": 32,
+      "value": "\"Networking.Config.retrieveTask\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 37874,
+      "length": 16,
+      "value": "\"baseIdentifier\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 37892,
+      "length": 39,
+      "value": "\"Networking.Config.retrieveTransaction\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 37953,
+      "length": 12,
+      "value": "\"identifier\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 37967,
+      "length": 40,
+      "value": "\"Enhancement.Config.retrieveTransaction\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 38977,
+      "length": 21,
+      "value": "\"Enhancement.adapter\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 39029,
+      "length": 13,
+      "value": "\"enhancement\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 39149,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 39198,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "FloatLiteral",
+      "offset": 39243,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 39301,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "Array",
+      "offset": 40624,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "Array",
+      "offset": 41449,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 42077,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 43804,
+      "length": 49,
+      "value": "\"var sharedNetworkingLinkAutomaticallyBool - set\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 43929,
+      "length": 348,
+      "value": "\"An attempt was made to set the sharedNetworkingLinkAutomaticallyBool after the shared instance had already been instantiated.  If this property is used, it is imperative that this value be set consistently prior to accessing the shared instance for the first time.  Failure to do so will result in reverting back to the default automatic linking.\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 44549,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 46145,
+      "length": 35,
+      "value": "\"var sharedStorageIdentifier - set\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 46256,
+      "length": 333,
+      "value": "\"An attempt was made to set the sharedStorageIdentifier after the shared instance had already been instantiated.  If this property is used, it is imperative that this value be set consistently prior to accessing the shared instance for the first time.  Failure to do so will result in reverting back to the default storage location.\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.swift",
+      "kind": "StringLiteral",
+      "offset": 369,
+      "length": 11,
+      "value": "\"KochavaEnhancement.Enhancement\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
+      "kind": "StringLiteral",
+      "offset": 1788,
+      "length": 3,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1861,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
+      "kind": "StringLiteral",
+      "offset": 2468,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
+      "kind": "StringLiteral",
+      "offset": 2575,
+      "length": 6,
+      "value": "\"idfa\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
+      "kind": "StringLiteral",
+      "offset": 2660,
+      "length": 6,
+      "value": "\"idfv\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
+      "kind": "StringLiteral",
+      "offset": 2757,
+      "length": 16,
+      "value": "\"kochava_app_id\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
+      "kind": "StringLiteral",
+      "offset": 2876,
+      "length": 12,
+      "value": "\"install_id\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
+      "kind": "StringLiteral",
+      "offset": 2995,
+      "length": 7,
+      "value": "\"nt_id\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
+      "kind": "StringLiteral",
+      "offset": 3089,
+      "length": 13,
+      "value": "\"sdk_version\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
+      "kind": "StringLiteral",
+      "offset": 3185,
+      "length": 8,
+      "value": "\"custom\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
+      "kind": "StringLiteral",
+      "offset": 3280,
+      "length": 11,
+      "value": "\"custom_id\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
+      "kind": "StringLiteral",
+      "offset": 3370,
+      "length": 6,
+      "value": "\"idct\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
+      "kind": "StringLiteral",
+      "offset": 3523,
+      "length": 27,
+      "value": "\"app_tracking_transparency\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
+      "kind": "StringLiteral",
+      "offset": 3658,
+      "length": 12,
+      "value": "\"att_detail\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
+      "kind": "StringLiteral",
+      "offset": 3747,
+      "length": 12,
+      "value": "\"init_token\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
+      "kind": "StringLiteral",
+      "offset": 3816,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5696,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5738,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5761,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5896,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5941,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6302,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
+      "kind": "StringLiteral",
+      "offset": 6451,
+      "length": 7,
+      "value": "\"%03lu\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
+      "kind": "StringLiteral",
+      "offset": 6506,
+      "length": 45,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
+      "kind": "StringLiteral",
+      "offset": 6529,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
+      "kind": "StringLiteral",
+      "offset": 6549,
+      "length": 1,
+      "value": "\"Z\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
+      "kind": "StringLiteral",
+      "offset": 7022,
+      "length": 47,
+      "value": "\"Transaction.Payload.transform_didCompleteTask\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
+      "kind": "StringLiteral",
+      "offset": 7100,
+      "length": 55,
+      "value": "\"enhancement_transaction_payload_transform_didComplete\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7187,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7226,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
+      "kind": "StringLiteral",
+      "offset": 7510,
+      "length": 13,
+      "value": "\"transaction\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
+      "kind": "StringLiteral",
+      "offset": 7597,
+      "length": 8,
+      "value": "\"object\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
+      "kind": "StringLiteral",
+      "offset": 7708,
+      "length": 33,
+      "value": "\"additionalHeadersDictionaryBool\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
+      "kind": "StringLiteral",
+      "offset": 8041,
+      "length": 11,
+      "value": "\"send_date\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
+      "kind": "StringLiteral",
+      "offset": 8095,
+      "length": 11,
+      "value": "\"send_date\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.General.swift",
+      "kind": "StringLiteral",
+      "offset": 1300,
+      "length": 13,
+      "value": "\"Did Restore\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.General.swift",
+      "kind": "StringLiteral",
+      "offset": 1316,
+      "length": 12,
+      "value": "\"Did Create\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.General.swift",
+      "kind": "StringLiteral",
+      "offset": 2325,
+      "length": 19,
+      "value": "\"storageIdentifier\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.General.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3146,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.General.swift",
+      "kind": "Dictionary",
+      "offset": 4683,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.General.swift",
+      "kind": "StringLiteral",
+      "offset": 5253,
+      "length": 15,
+      "value": "\"Did Configure\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.General.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6051,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.General.swift",
+      "kind": "StringLiteral",
+      "offset": 6625,
+      "length": 9,
+      "value": "\"general\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.General.swift",
+      "kind": "StringLiteral",
+      "offset": 6780,
+      "length": 40,
+      "value": "\"KochavaEnhancement.Enhancement.General\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.General.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7629,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.General.swift",
+      "kind": "StringLiteral",
+      "offset": 10222,
+      "length": 7,
+      "value": "\"token\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.General.swift",
+      "kind": "StringLiteral",
+      "offset": 10435,
+      "length": 8,
+      "value": "\"config\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.General.swift",
+      "kind": "Dictionary",
+      "offset": 10465,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.General.swift",
+      "kind": "StringLiteral",
+      "offset": 10499,
+      "length": 7,
+      "value": "\"token\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.General.swift",
+      "kind": "StringLiteral",
+      "offset": 10685,
+      "length": 8,
+      "value": "\"config\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.General.swift",
+      "kind": "StringLiteral",
+      "offset": 11122,
+      "length": 47,
+      "value": "\"Enhancement.General.sharedInstanceBoolAdapter\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.General.swift",
+      "kind": "StringLiteral",
+      "offset": 11200,
+      "length": 17,
+      "value": "\"shared_instance\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.General.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11251,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.General.swift",
+      "kind": "StringLiteral",
+      "offset": 11987,
+      "length": 46,
+      "value": "\"Enhancement.General.storageIdentifierAdapter\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.General.swift",
+      "kind": "StringLiteral",
+      "offset": 12064,
+      "length": 12,
+      "value": "\"storage_id\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.General.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13253,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.General.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13537,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.General.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13689,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Enhancement.General.swift",
+      "kind": "StringLiteral",
+      "offset": 433,
+      "length": 7,
+      "value": "\"KochavaEnhancement.General\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Product.swift",
+      "kind": "StringLiteral",
+      "offset": 1947,
+      "length": 13,
+      "value": "\"Enhancement\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Product.swift",
+      "kind": "StringLiteral",
+      "offset": 1988,
+      "length": 9,
+      "value": "\"Kochava\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Product.swift",
+      "kind": "StringLiteral",
+      "offset": 2026,
+      "length": 32,
+      "value": "\"com.kochava.KochavaEnhancement\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Product.swift",
+      "kind": "StringLiteral",
+      "offset": 2081,
+      "length": 19,
+      "value": "\"Apple.Enhancement\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Product.swift",
+      "kind": "StringLiteral",
+      "offset": 2125,
+      "length": 7,
+      "value": "\"8.0.0\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Product.swift",
+      "kind": "StringLiteral",
+      "offset": 2160,
+      "length": 3,
+      "value": "\"8\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Product.swift",
+      "kind": "StringLiteral",
+      "offset": 2297,
+      "length": 20,
+      "value": "\"KVABuildDateString\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Product.swift",
+      "kind": "StringLiteral",
+      "offset": 2340,
+      "length": 13,
+      "value": "\"xcframework\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Product.swift",
+      "kind": "StringLiteral",
+      "offset": 2368,
+      "length": 8,
+      "value": "\"source\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Product.swift",
+      "kind": "StringLiteral",
+      "offset": 2782,
+      "length": 13,
+      "value": "\"Measurement\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Product.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2844,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Product.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2895,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Product.swift",
+      "kind": "StringLiteral",
+      "offset": 3014,
+      "length": 13,
+      "value": "\"Enhancement\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Product.swift",
+      "kind": "StringLiteral",
+      "offset": 3349,
+      "length": 32,
+      "value": "\"KochavaMeasurement.Measurement\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Product.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3453,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Product.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3522,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Product.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3583,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Product.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3643,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Product.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3709,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Product.swift",
+      "kind": "StringLiteral",
+      "offset": 3891,
+      "length": 32,
+      "value": "\"KochavaEnhancement.Enhancement\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Product.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3972,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Product.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4482,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Product.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4626,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Product.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4664,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Product.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4740,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Product.swift",
+      "kind": "Dictionary",
+      "offset": 4971,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Product.swift",
+      "kind": "StringLiteral",
+      "offset": 5091,
+      "length": 36,
+      "value": "\"didInvalidateSharedEnhancementBool\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Product.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5131,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Product.swift",
+      "kind": "StringLiteral",
+      "offset": 5707,
+      "length": 28,
+      "value": "\"KochavaEnhancement.Product\""
+    }
+  ]
+}
