@@ -1,6 +1,6 @@
-# Apple-SwiftPackage-KochavaEnhancement
+# Apple-SwiftPackage-KochavaEnhancement-XCFramework
 
-[![Releases](https://img.shields.io/github/v/release/kochava/Apple-SwiftPackage-KochavaEnhancement?include_prereleases&sort=semver)](https://github.com/Kochava/Apple-SwiftPackage-KochavaEnhancement/releases)
+[![Releases](https://img.shields.io/github/v/release/kochava/Apple-SwiftPackage-KochavaEnhancement-XCFramework?include_prereleases&sort=semver)](https://github.com/Kochava/Apple-SwiftPackage-KochavaEnhancement-XCFramework/releases)
 
 ## KochavaEnhancement
 
@@ -39,4 +39,4 @@ Kochava, support@kochava.com
 
 ## License
 
-Apple-SwiftPackage-KochavaEnhancement is available under the [Kochava Terms of Service](https://www.kochava.com/terms-of-service/). See the LICENSE file for more info.
+Apple-SwiftPackage-KochavaEnhancement-XCFramework is available under the [Kochava Terms of Service](https://www.kochava.com/terms-of-service/). See the LICENSE file for more info.
