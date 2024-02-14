@@ -3681,7 +3681,7 @@
       "kind": "StringLiteral",
       "offset": 2125,
       "length": 7,
-      "value": "\"8.0.0\""
+      "value": "\"8.1.0\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Product.swift",
