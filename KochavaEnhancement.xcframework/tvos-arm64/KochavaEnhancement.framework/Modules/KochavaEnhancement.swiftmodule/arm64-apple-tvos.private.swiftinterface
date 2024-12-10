@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
-// swift-module-flags: -target arm64-apple-tvos13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name KochavaEnhancement
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target arm64-apple-tvos14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name KochavaEnhancement
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import Foundation
 import JavaScriptCore
 @_exported import KochavaEnhancement
@@ -13,7 +14,7 @@ import _SwiftConcurrencyShims
 public var shared: KochavaNetworking.Product {
   get
 }
-@_hasMissingDesignatedInitializers @objc(KVAEnhancement) final public class Enhancement : ObjectiveC.NSObject, KochavaNetworking.ConfigurableWith, KochavaNetworking.ConfigurableWithWithOptions, KochavaNetworking.DecodableFrom, KochavaNetworking.DecodableFromWithInitializedObject, KochavaNetworking.EncodableTo, KochavaNetworking.Executor, KochavaNetworking.Invalidatable, KochavaNetworking.InvalidatableWithOptions, KochavaNetworking.Logger_Provider, KochavaNetworking.Networking_RequiredProvider, KochavaNetworking.SharedInstanceProvider, KochavaNetworking.Startable, KochavaNetworking.StartableWithOptions, KochavaNetworking.Stoppable, KochavaNetworking.StoppableWithOptions {
+@_hasMissingDesignatedInitializers @objc(KVAEnhancement) final public class Enhancement : ObjectiveC.NSObject, KochavaNetworking.ConfigurableWith, KochavaNetworking.ConfigurableWithWithOptions, KochavaNetworking.DecodableFrom, KochavaNetworking.DecodableFromWithInitializedObject, KochavaNetworking.EncodableTo, KochavaNetworking.Executor, KochavaNetworking.Invalidatable, KochavaNetworking.InvalidatableWithOptions, os.Logger.Provider, KochavaNetworking.Networking.RequiredProvider, KochavaNetworking.SharedInstanceProvider, KochavaNetworking.Startable, KochavaNetworking.StartableWithOptions, KochavaNetworking.Stoppable, KochavaNetworking.StoppableWithOptions {
   @objc public static var shared: KochavaEnhancement.Enhancement {
     @objc get
   }
@@ -35,7 +36,6 @@ public var shared: KochavaNetworking.Product {
   @objc final public func start(logMessagePrintBool: Swift.Bool, asyncBool: Swift.Bool)
   @objc final public func stop()
   @objc final public func stop(logMessagePrintBool: Swift.Bool, asyncBool: Swift.Bool)
-  @available(iOS 14.0, iOSApplicationExtension 14.0, macOS 11.0, tvOS 14.0, tvOSApplicationExtension 14.0, visionOS 1.0, watchOS 7.0, *)
   public static let logger: os.Logger
   @objc override final public var description: Swift.String {
     @objc get
@@ -64,14 +64,13 @@ public var shared: KochavaNetworking.Product {
 extension KochavaEnhancement.Enhancement : JavaScriptCore.JSExport {
 }
 extension KochavaEnhancement.Enhancement {
-  @_hasMissingDesignatedInitializers @objc(KVAEnhancement_General) final public class General : ObjectiveC.NSObject, KochavaNetworking.ConfigurableWith, KochavaNetworking.DecodableFrom, KochavaNetworking.DecodableFromWithInitializedObject, KochavaNetworking.EncodableTo, KochavaNetworking.Executor, KochavaNetworking.Invalidatable, KochavaNetworking.Keyable, KochavaNetworking.Logger_Provider, KochavaNetworking.Startable {
+  @_hasMissingDesignatedInitializers @objc(KVAEnhancement_General) final public class General : ObjectiveC.NSObject, KochavaNetworking.ConfigurableWith, KochavaNetworking.DecodableFrom, KochavaNetworking.DecodableFromWithInitializedObject, KochavaNetworking.EncodableTo, KochavaNetworking.Executor, KochavaNetworking.Invalidatable, KochavaNetworking.Keyable, os.Logger.Provider, KochavaNetworking.Startable {
     public static func from(_ object: Any?) -> Self?
     @discardableResult
     public static func from(_ object: Any?, initializedObject: Any?) -> Self?
     final public func to(context: KochavaNetworking.Context?) -> Any?
     final public func configure(with object: Any?, context: KochavaNetworking.Context?)
     final public func start()
-    @available(iOS 14.0, iOSApplicationExtension 14.0, macOS 11.0, tvOS 14.0, tvOSApplicationExtension 14.0, visionOS 1.0, watchOS 7.0, *)
     public static let logger: os.Logger
     final public func key(context: KochavaNetworking.Context?) -> Swift.AnyHashable?
     public static let type_kochava: KochavaNetworking.Kochava_Type
@@ -86,14 +85,13 @@ extension KochavaEnhancement.Enhancement {
     @objc deinit
   }
 }
-@_inheritsConvenienceInitializers @objc(KochavaEnhancement_Product) final public class Product : ObjectiveC.NSObject, KochavaNetworking.Logger_Provider, KochavaNetworking.SharedInstanceProvider {
+@_inheritsConvenienceInitializers @objc(KochavaEnhancement_Product) final public class Product : ObjectiveC.NSObject, os.Logger.Provider, KochavaNetworking.SharedInstanceProvider {
   @objc public static var shared: KochavaNetworking.Product {
     @objc get
   }
   public static var sharedInstance: Any {
     get
   }
-  @available(iOS 14.0, iOSApplicationExtension 14.0, macOS 11.0, tvOS 14.0, tvOSApplicationExtension 14.0, visionOS 1.0, watchOS 7.0, *)
   public static let logger: os.Logger
   @objc override dynamic public init()
   @objc deinit

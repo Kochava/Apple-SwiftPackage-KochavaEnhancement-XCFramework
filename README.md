@@ -12,14 +12,14 @@ The KochavaEnhancement framework is an optional module within the Kochava SDK su
 
 ## Built on
 
-* Xcode 15.3
+* Xcode 16.1
 
 ## Platforms
 
-* iOS 13.0
-* macCatalyst 13.0
-* macOS 10.15
-* tvOS 13.0
+* iOS 14.0
+* macCatalyst 14.0
+* macOS 12.0
+* tvOS 14.0
 * visionOS 1.0
 * watchOS 7.0
 
