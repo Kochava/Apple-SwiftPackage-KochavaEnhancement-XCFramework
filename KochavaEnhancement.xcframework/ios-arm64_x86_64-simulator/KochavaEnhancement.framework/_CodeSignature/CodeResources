@@ -10,19 +10,19 @@
 		</data>
 		<key>Headers/KochavaEnhancement.h</key>
 		<data>
-		OQy4z7iIJteiTEahVNd4uyFcB9g=
+		sq+JiZNyStW7KfjTDBTz8ZKNnfQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ofdWwmlFYV4Xhf6oqwsMzw2+DsM=
+		mBay3w+A0145C8lh1aJVIQk0SmI=
 		</data>
 		<key>Modules/KochavaEnhancement.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		NPVyTSG3lvzltZhDlKvBNKklaYA=
+		QfFykGMPJy38qdfkGoe7FvdI2l8=
 		</data>
 		<key>Modules/KochavaEnhancement.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		RU4ga1nY4ScnTeyIh1ByMjJ7K6c=
+		RvhVHI1nverjGT7uFNs3FH2xQlA=
 		</data>
 		<key>Modules/KochavaEnhancement.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/KochavaEnhancement.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		RU4ga1nY4ScnTeyIh1ByMjJ7K6c=
+		RvhVHI1nverjGT7uFNs3FH2xQlA=
 		</data>
 		<key>Modules/KochavaEnhancement.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5NsupMFci9tJhvJDdH0WFBubOfI=
+		toV6fJgVOraIvR3GGDkIFrD32JQ=
 		</data>
 		<key>Modules/KochavaEnhancement.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		NPVyTSG3lvzltZhDlKvBNKklaYA=
+		QfFykGMPJy38qdfkGoe7FvdI2l8=
 		</data>
 		<key>Modules/KochavaEnhancement.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		olw4wnDVE6kVI/WmeUrqW3jypFs=
+		WVsyWfjRXSqN7MbZgO+FVodUOz0=
 		</data>
 		<key>Modules/KochavaEnhancement.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/KochavaEnhancement.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		olw4wnDVE6kVI/WmeUrqW3jypFs=
+		WVsyWfjRXSqN7MbZgO+FVodUOz0=
 		</data>
 		<key>Modules/KochavaEnhancement.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		f6QRFvZ7d8rQwkDViirajQm9dXE=
+		oq88RYDv5fu6c1FCH39ufTAgOCE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -78,21 +78,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aOZ/iFKuBK2F2KaZFqvKmjjLxhDWJ4NAoOVLcgn4jiY=
+			l8Lf1xNF6a1EAwbMm6KmipYxCHJKYZ1V3ELY5EktPeE=
 			</data>
 		</dict>
 		<key>Modules/KochavaEnhancement.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ykYukolE3bTwqjJ9D7t9qnlvHS5DaHHnsPB1YCVsSQo=
+			43T9lkkUYWqOFl3zMZJZR6ylzGFQ4s2jczNbeGJWMS4=
 			</data>
 		</dict>
 		<key>Modules/KochavaEnhancement.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ENICOgiqvWSivPs+w3f7zLrOC61uT7riEvDCzZPCfwk=
+			MpvqBbKGmyYF/h+TNhEEQj34UdNiz6XveiLfYjMFl9E=
 			</data>
 		</dict>
 		<key>Modules/KochavaEnhancement.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -106,28 +106,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ENICOgiqvWSivPs+w3f7zLrOC61uT7riEvDCzZPCfwk=
+			MpvqBbKGmyYF/h+TNhEEQj34UdNiz6XveiLfYjMFl9E=
 			</data>
 		</dict>
 		<key>Modules/KochavaEnhancement.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sjYJc1cbg1crL5q0R9jYLiu/irGShURmeJA/HpMdwwA=
+			09FC1gZy/n4smQ+MWFvZIE8HQkFaphHRAIcnarK8Wfo=
 			</data>
 		</dict>
 		<key>Modules/KochavaEnhancement.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ykYukolE3bTwqjJ9D7t9qnlvHS5DaHHnsPB1YCVsSQo=
+			43T9lkkUYWqOFl3zMZJZR6ylzGFQ4s2jczNbeGJWMS4=
 			</data>
 		</dict>
 		<key>Modules/KochavaEnhancement.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9oODaUN+BeYtVRTjaqgeJ+lbwVe4Nc9igXbMwXQkbtA=
+			6NOOBNWYYwA+3zm0lQDFkhuj6q9aeRdB4WzTwpGVKBI=
 			</data>
 		</dict>
 		<key>Modules/KochavaEnhancement.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -141,14 +141,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9oODaUN+BeYtVRTjaqgeJ+lbwVe4Nc9igXbMwXQkbtA=
+			6NOOBNWYYwA+3zm0lQDFkhuj6q9aeRdB4WzTwpGVKBI=
 			</data>
 		</dict>
 		<key>Modules/KochavaEnhancement.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wV2bJnyiOUQXHZ9IUmQCk+4BfVWzK/RdPRWm9VhY9GE=
+			xYZ9AyJYHtFNONd+kjtMTX8cMWGkHCcfGbpMUD2qLwA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
