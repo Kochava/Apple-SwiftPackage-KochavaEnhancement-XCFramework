@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/+gyiYLfogcH1vItHjcAfVAfJCs=
+		xIDlZ4xYboRHmB4Q13cJZOlvVU4=
 		</data>
 		<key>Modules/KochavaEnhancement.swiftmodule/arm64-apple-watchos-simulator.abi.json</key>
 		<data>
-		X1b8DruZ94o5pOt4Z3uGMSTnebM=
+		5ag6nK9uc2mPWgoqc0tCAA1jnhQ=
 		</data>
 		<key>Modules/KochavaEnhancement.swiftmodule/arm64-apple-watchos-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/KochavaEnhancement.swiftmodule/arm64-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		Er9krqTn71/rV5n6ZDWoZL7QVr8=
+		F9c1WGQJQxJGJCRDGNgGMTT3eIw=
 		</data>
 		<key>Modules/KochavaEnhancement.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
 		<data>
-		X1b8DruZ94o5pOt4Z3uGMSTnebM=
+		5ag6nK9uc2mPWgoqc0tCAA1jnhQ=
 		</data>
 		<key>Modules/KochavaEnhancement.swiftmodule/x86_64-apple-watchos-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/KochavaEnhancement.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		ugM5Krd0q86RDYjzF4PcswDoxZs=
+		emIOYL3hd8ulXB+fn8Nq+QxhtiM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -85,7 +85,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YPv3CxsxIKrS9T1aoTioVzaRh3QCK5ChLz40kJ+sZoI=
+			DYAB/R1iEqeJsYOrCZkM5JVa2Lx8YFIreUhZc3bzzHM=
 			</data>
 		</dict>
 		<key>Modules/KochavaEnhancement.swiftmodule/arm64-apple-watchos-simulator.private.swiftinterface</key>
@@ -113,14 +113,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BAF3Hibk50cQYBawwU3GekpwfaZH04z5hd5ghG9ITS4=
+			vHfl9VZ3kdE59sCYwoILSw2e0I5d3FJs6Z7bYdi1RZs=
 			</data>
 		</dict>
 		<key>Modules/KochavaEnhancement.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YPv3CxsxIKrS9T1aoTioVzaRh3QCK5ChLz40kJ+sZoI=
+			DYAB/R1iEqeJsYOrCZkM5JVa2Lx8YFIreUhZc3bzzHM=
 			</data>
 		</dict>
 		<key>Modules/KochavaEnhancement.swiftmodule/x86_64-apple-watchos-simulator.private.swiftinterface</key>
@@ -148,7 +148,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gcj7PTVS5tjnbqtVIpFkkP4qm2OuWye9np+sOltWXdA=
+			IF2sexUmFftOzb78RQWbjxlfviu8WFEG9UUFgQSRgrg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
