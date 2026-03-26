@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		f3yin0Ze3nZAcbbhG8vqvkfb6tg=
+		IW2h8nzOMZy4obaZH7BxalDw5gE=
 		</data>
 		<key>Modules/KochavaEnhancement.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		H3lzP5efyRhzc+OsQOMgKA2MZ4Y=
+		kfPWp217SPdPbvYnZga0lVtWa0w=
 		</data>
 		<key>Modules/KochavaEnhancement.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -32,13 +32,9 @@
 		<data>
 		lQoP2PAwebbtVfMJLA4+QNbDEmY=
 		</data>
-		<key>Modules/KochavaEnhancement.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
-		<data>
-		cSVE4MRNnNpXXXpc1Rtt6n13WPI=
-		</data>
 		<key>Modules/KochavaEnhancement.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		H3lzP5efyRhzc+OsQOMgKA2MZ4Y=
+		kfPWp217SPdPbvYnZga0lVtWa0w=
 		</data>
 		<key>Modules/KochavaEnhancement.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -51,10 +47,6 @@
 		<key>Modules/KochavaEnhancement.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
 		InIU3vcvIm1PPh3qeU5OQyzONf8=
-		</data>
-		<key>Modules/KochavaEnhancement.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<data>
-		7+OKsHWHGPdDj9UzD7AFcM/ed8Q=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -85,7 +77,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			K0zClxxA3l4D3+yXwMZue0kXPlcnf/Kex8tct+pX+Hk=
+			ia/ATvJJapXzQP5GjA3MfXNzBJ8RkbtY9JDgjvbn5Gw=
 			</data>
 		</dict>
 		<key>Modules/KochavaEnhancement.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,18 +101,11 @@
 			clCQxAIvVIVu7acKc2owRK+s7DK88EWvHk0X1513xZU=
 			</data>
 		</dict>
-		<key>Modules/KochavaEnhancement.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9rQ+9+6oCs4yB1RcmAXvbwqxYtyQ+BQGwKqwh8PddWc=
-			</data>
-		</dict>
 		<key>Modules/KochavaEnhancement.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			K0zClxxA3l4D3+yXwMZue0kXPlcnf/Kex8tct+pX+Hk=
+			ia/ATvJJapXzQP5GjA3MfXNzBJ8RkbtY9JDgjvbn5Gw=
 			</data>
 		</dict>
 		<key>Modules/KochavaEnhancement.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -142,13 +127,6 @@
 			<key>hash2</key>
 			<data>
 			mPaz2vDonK/GBhzy4EGNANInr18Rq92byqIZIdOjyh4=
-			</data>
-		</dict>
-		<key>Modules/KochavaEnhancement.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			JYXCUwREC8mMqgCGRCkPPd/iFmjcd8YH5njtM9gv0UM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

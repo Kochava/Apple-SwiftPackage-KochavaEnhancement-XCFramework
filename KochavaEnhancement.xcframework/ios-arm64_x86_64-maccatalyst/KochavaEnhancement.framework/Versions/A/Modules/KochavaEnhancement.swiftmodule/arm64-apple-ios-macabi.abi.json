@@ -2771,63 +2771,63 @@
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
       "kind": "StringLiteral",
-      "offset": 7442,
+      "offset": 7379,
       "length": 47,
       "value": "\"Transaction.Payload.transform_didCompleteTask\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
       "kind": "StringLiteral",
-      "offset": 7520,
+      "offset": 7457,
       "length": 55,
       "value": "\"enhancement_transaction_payload_transform_didComplete\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
       "kind": "BooleanLiteral",
-      "offset": 7607,
+      "offset": 7544,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
       "kind": "BooleanLiteral",
-      "offset": 7646,
+      "offset": 7583,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
       "kind": "StringLiteral",
-      "offset": 8010,
+      "offset": 7947,
       "length": 13,
       "value": "\"transaction\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
       "kind": "StringLiteral",
-      "offset": 8097,
+      "offset": 8034,
       "length": 8,
       "value": "\"object\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
       "kind": "StringLiteral",
-      "offset": 8203,
+      "offset": 8140,
       "length": 28,
       "value": "\"additionalHeaderFieldsBool\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
       "kind": "StringLiteral",
-      "offset": 8372,
+      "offset": 8309,
       "length": 11,
       "value": "\"send_date\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/TransactionEnhancer.swift",
       "kind": "StringLiteral",
-      "offset": 8437,
+      "offset": 8374,
       "length": 11,
       "value": "\"send_date\""
     },
@@ -2934,7 +2934,7 @@
       "kind": "StringLiteral",
       "offset": 2329,
       "length": 8,
-      "value": "\"10.0.1\""
+      "value": "\"10.0.2\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaEnhancement\/Sources\/KochavaEnhancement\/Product.swift",
